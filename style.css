@@ -31,3 +31,16 @@ b {
     color: #025bc9;
 }
 
+.tipos-jobs{
+    display:flex;
+    gap: 30px;  
+}
+
+.busca-trabalho img {
+    width: 15px;
+}
+
+.busca-trabalho {
+    display: flex;
+    gap: 10px;
+}
