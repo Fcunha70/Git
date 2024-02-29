@@ -3,15 +3,21 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-}   
+}
 
-html, .container, body {
+html,
+.container,
+body {
     width: 100vw;
     min-height: 100vh;
 }
 
+h1 {
+    font-size: 45px;
+}
+
 .container {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -19,21 +25,25 @@ html, .container, body {
     background-color: #fef9ee;
 }
 
-.KPI{
+.KPI {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 600px;
     text-align: center;
+    font-size: 30px;
 }
 
 b {
     color: #025bc9;
 }
 
-.tipos-jobs{
-    display:flex;
-    gap: 30px;  
+.tipos-jobs {
+    display: flex;
+    gap: 20px;
+    font-size: 12px;
+    justify-content:flex-start;
+    width: 530px;
 }
 
 .busca-trabalho img {
@@ -43,4 +53,34 @@ b {
 .busca-trabalho {
     display: flex;
     gap: 10px;
+}
+
+.mascara {
+    background-color: white;    
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    gap: 5px;
+}
+
+.mascara input {
+    border: none;
+    outline: none;
+}
+
+.busca-trabalho button {
+    color: white;
+    background-color: blue;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+}
+
+.kpi-filho .pequeno {
+    font-size: 15px;
+}
+
+.kpi-filho .grande {
+    font-size: 35px;
+    font:bolder;
 }
