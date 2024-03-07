@@ -84,3 +84,8 @@ b {
     font-size: 35px;
     font:bolder;
 }
+
+.kpi-filho {
+    background-color: white;
+    padding: 15px 50px;
+}
